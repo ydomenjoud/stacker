@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@kalidea/kaligraphi/styles/styles.css';
+
+kal-button {
+  margin-right: 20px;
+}
+
+app-root {
+  display: flex;
+  height: 100vh;
+}
+
+app-page1 {
+  display: block;
+  background-color: lightgrey;
+  padding: 24px;
+}
+
+app-staker {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 2 * 24px);
+}
+
+app-staker > article {
+  flex: 1;
+  display: flex;
+}
+
+app-ecran1 {
+  display: block;
+  background-color: lightgreen;
+}
+app-ecran2 {
+  display: block;
+  background-color: lightpink;
+}
+app-ecran3 {
+  display: block;
+  background-color: lightblue;
+}

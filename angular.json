@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "stacker"
+    }
+  },
+  "defaultProject": "stacker",
+  "cli": {
+    "analytics": "3206ca6f-fdc4-4dc5-9e58-16c31cbc0808"
+  }
 }

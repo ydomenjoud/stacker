@@ -1,0 +1,8 @@
+
+<article *ngIf="portal">
+  <ng-template [cdkPortalOutlet]="portal"></ng-template>
+</article>
+
+<div>
+  <kal-button kalTheme="primary" (click)="unstack()">Fermer</kal-button>
+</div>
